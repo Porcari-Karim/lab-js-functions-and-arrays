@@ -33,4 +33,4 @@ function averageNumbers(arrayOfNumbers) { return arrayOfNumbers.length === 0 ? 0
 // Iteration 5 | Find Elements
 const words2 = ["machine", "subset", "trouble", "starting", "matter", "eating", "truth", "disobedience"];
 
-function doesWordExist(arrayOfElements, element) { return arrayOfElements.length === 0 ? null : arrayOfElements.filter((elem) => elem === element).length !== 0; }
+function doesWordExist(arrayOfElements, element) { return arrayOfElements.length === 0 ? null : arrayOfElements.includes(element); }
